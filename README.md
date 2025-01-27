@@ -11,8 +11,16 @@ This is a Tampermonkey userscript designed to automate the process of downloadin
 
 ## Installation
 1. Install [Tampermonkey](https://www.tampermonkey.net/) in your browser.
-2. Create a new userscript in Tampermonkey and paste the script into the editor.
-3. Save the script, and it will automatically run on supported pages.
+2. **Enable Developer Mode for Tampermonkey**:
+   - Open Tampermonkey’s Dashboard.
+   - Go to the **Settings** tab.
+   - Scroll down to the "Experimental" section.
+   - Enable the **Config mode** dropdown and select **Advanced**.
+   - Check the box for **Allow access to local files**.
+   - Save the changes.
+   - For more details, see [Tampermonkey FAQ: Developer Mode](https://www.tampermonkey.net/faq.php?locale=en#Q209).
+3. Create a new userscript in Tampermonkey and paste the script into the editor.
+4. Save the script, and it will automatically run on supported pages.
 
 ## Usage
 1. Navigate to a custom backing track page, e.g., `https://www.karaoke-version.de/custombackingtrack/artist/song.html`.
